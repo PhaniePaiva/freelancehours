@@ -16,7 +16,7 @@ return new class extends Migration
             $table->string('name');
             $table->string('email')->unique();
             $table->string('avatar')->nullable();
-            $table->unsignedTinyInteger('rating')-default(0);
+            $table->unsignedTinyInteger('rating')->default(0);
       
             $table->timestamps();
         });
