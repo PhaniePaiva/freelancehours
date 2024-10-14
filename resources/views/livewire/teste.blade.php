@@ -1,5 +1,5 @@
 <div>
-    <h1>Meu componente Livewire</h1>
+    <h1>Meu componente Livewirer</h1>
     <input wire:model.live="search" />
 
     <br>
